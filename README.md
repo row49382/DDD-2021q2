@@ -19,4 +19,8 @@ domains
 
   # Zoom 1
   - shows the detailed services exposed by a domain and the large context-maps within the domain
-  - Zoom 1 diagram found here:  https://www.yworks.com/yed-live/?file=https://gist.githubusercontent.com/row49382/8d72b3c06e73937f3f43ae2f35e0058e/raw/aea273551d296361f6bbe38fe49f17e6b2460019/Domain%20Driven%20Design%3A%20University%20Course%20Registration%20System
+  - Zoom 1 diagram found here:  https://www.yworks.com/yed-live/?file=https://gist.githubusercontent.com/row49382/722acd7a378729a67d54a8c27e2e0c80/raw/03e85d3bcacd30336c12f77beebdf74fb84eadce/Domain%20Driven%20Design%3A%20University%20Course%20Registration%20System
+
+  # Zoom 2
+  - breaks down asingle context map to show aggregates, entities and value-objects
+  - Zoom 2 diagram found here:
