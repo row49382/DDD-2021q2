@@ -15,7 +15,7 @@ Practice designing a project solution using Eric Evans DDD principals
 # Zoom 0
   - show domains as a shape, and design to show the relations between 
 domains
-  - Zoom 0 diagram found here: https://www.yworks.com/yed-live/?file=https://gist.githubusercontent.com/row49382/f0649a22bb22ed47ee54ee89df885fda/raw/159515ac192fc1d8970fb1aae0ad9cba9f5f8d7a/Domain%20Driven%20Design%3A%20University%20Course%20Registration%20System
+  - Zoom 0 diagram found here: https://www.yworks.com/yed-live/?file=https://gist.githubusercontent.com/row49382/722acd7a378729a67d54a8c27e2e0c80/raw/03e85d3bcacd30336c12f77beebdf74fb84eadce/Domain%20Driven%20Design%3A%20University%20Course%20Registration%20System
 
   # Zoom 1
   - shows the detailed services exposed by a domain and the large context-maps within the domain
