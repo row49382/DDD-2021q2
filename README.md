@@ -12,6 +12,11 @@ Practice designing a project solution using Eric Evans DDD principals
   - As you work through the problem, PR the instructors​
   - We’ll provide feedback, and ultimately CE Credits​
 
+# Introduction
+- this project will be based on a Course Registration System for a University
+- the different domains will be Courses, Registrations, Users, and Library
+- The final solution will be a Springboot application, implemented from the diagrams.
+
 # Zoom 0
   - show domains as a shape, and design to show the relations between 
 domains
@@ -23,8 +28,13 @@ domains
 
   # Zoom 2
   - breaks down a single context map to show aggregates, entities and value-objects
+  - NOTE: for zoom 2 and 3, the following lines will mean the following:
+    - black arrow: association
+    - white arrow: composition
+    - dashed black arrow: set
+    - solid line: inheritance
   - Zoom 2 diagram found here: https://www.yworks.com/yed-live/?file=https://gist.githubusercontent.com/row49382/878fb199700876cc341c0e872188eb8f/raw/75d7656f5a8ca4aa987ca2e4b530dec69e6c8601/Domain%20Driven%20Design%3A%20University%20Course%20Registration%20System
 
   # Zoom 3
   - For a single structure (see list above) show implementation details and related types, validations, nullability, defaults, interfaces, and value objects. It can also include the embedded types (which may be value-objects or entities)​
-  - Zoom 3 diagram found here: https://www.yworks.com/yed-live/?file=https://gist.githubusercontent.com/row49382/9de3ba67deeb5c319cbee3fb0250375f/raw/4068505cc8b0ed7076824f50acd34e946ca080aa/Domain%20Driven%20Design%3A%20University%20Course%20Registration%20System
+  - Zoom 3 diagram for CourseRegistration found here: https://www.yworks.com/yed-live/?file=https://gist.githubusercontent.com/row49382/599924d02b9fbb9a8e74d975b120d71b/raw/5f205d38eeeb159a0128246f3710202f6fb39516/Domain%20Driven%20Design%3A%20University%20Course%20Registration%20System
