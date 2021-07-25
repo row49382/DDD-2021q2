@@ -24,7 +24,7 @@ domains
 
   # Zoom 1
   - shows the detailed services exposed by a domain and the large context-maps within the domain
-  - Zoom 1 diagram found here:  https://www.yworks.com/yed-live/?file=https://gist.githubusercontent.com/row49382/722acd7a378729a67d54a8c27e2e0c80/raw/03e85d3bcacd30336c12f77beebdf74fb84eadce/Domain%20Driven%20Design%3A%20University%20Course%20Registration%20System
+  - Zoom 1 diagram found here:  https://www.yworks.com/yed-live/?file=https://gist.githubusercontent.com/row49382/9584931dc7265185673e8ea00038f5a2/raw/9309120cb45263eb3467e045b7d935e0de37f8f1/Domain%20Driven%20Design%3A%20University%20Course%20Registration%20System
 
   # Zoom 2
   - breaks down a single context map to show aggregates, entities and value-objects
@@ -37,4 +37,4 @@ domains
 
   # Zoom 3
   - For a single structure (see list above) show implementation details and related types, validations, nullability, defaults, interfaces, and value objects. It can also include the embedded types (which may be value-objects or entities)​
-  - Zoom 3 diagram for CourseRegistration found here: https://www.yworks.com/yed-live/?file=https://gist.githubusercontent.com/row49382/599924d02b9fbb9a8e74d975b120d71b/raw/5f205d38eeeb159a0128246f3710202f6fb39516/Domain%20Driven%20Design%3A%20University%20Course%20Registration%20System
+  - Zoom 3 diagram for CourseRegistration found here: https://www.yworks.com/yed-live/?file=https://gist.githubusercontent.com/row49382/94e3073d50fc11b28bcc9ae2f4c95b72/raw/a3392b7661ba49de47d433fcb1329dcf404af36c/Domain%20Driven%20Design%3A%20University%20Course%20Registration%20System
