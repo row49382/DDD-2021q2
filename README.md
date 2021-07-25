@@ -37,4 +37,4 @@ domains
 
   # Zoom 3
   - For a single structure (see list above) show implementation details and related types, validations, nullability, defaults, interfaces, and value objects. It can also include the embedded types (which may be value-objects or entities)​
-  - Zoom 3 diagram for CourseRegistration found here: https://www.yworks.com/yed-live/?file=https://gist.githubusercontent.com/row49382/94e3073d50fc11b28bcc9ae2f4c95b72/raw/a3392b7661ba49de47d433fcb1329dcf404af36c/Domain%20Driven%20Design%3A%20University%20Course%20Registration%20System
+  - Zoom 3 diagram for CourseRegistration found here: https://www.yworks.com/yed-live/?file=https://gist.githubusercontent.com/row49382/9ad3a7b11e2c2901a3272ad87adfc065/raw/4bfdf5f99b7280ca36e4f1c3a90717293096824c/Domain%20Driven%20Design%3A%20University%20Course%20Registration%20System
