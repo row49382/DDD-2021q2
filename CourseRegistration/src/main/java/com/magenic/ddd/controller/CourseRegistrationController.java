@@ -2,6 +2,7 @@ package com.magenic.ddd.controller;
 
 import com.magenic.ddd.domain.course.registration.CourseRegistration;
 import com.magenic.ddd.exception.ValidationFailureException;
+import com.magenic.ddd.exception.course.CourseNotFoundException;
 import com.magenic.ddd.exception.course.registration.CourseRegistrationNotFoundException;
 import com.magenic.ddd.service.CourseRegistrationService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,20 +18,23 @@ import javax.validation.Valid;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("api/course/register")
+@RequestMapping("api/course/{courseId}/register")
 public class CourseRegistrationController {
 
     @Autowired
     private CourseRegistrationService courseRegistrationService;
 
     @PostMapping
-    public ResponseEntity<CourseRegistration> registerCourse(@Valid @RequestParam CourseRegistration courseRegistration) throws ValidationFailureException {
+    public ResponseEntity<CourseRegistration> registerCourse(
+            @PathVariable long courseId,
+            @Valid @RequestParam CourseRegistration courseRegistration) throws ValidationFailureException, CourseNotFoundException {
+        courseRegistration.getCourse().setId(courseId);
         CourseRegistration createdCourseRegistration = this.courseRegistrationService.registerStudentToCourse(courseRegistration);
         return ResponseEntity.of(Optional.of(createdCourseRegistration));
     }
 
     @GetMapping("/{courseRegistrationId}")
-    public ResponseEntity<CourseRegistration> getCourseRegistration(@PathVariable long courseRegistrationId) throws CourseRegistrationNotFoundException {
+    public ResponseEntity<CourseRegistration> getCourseRegistration(@PathVariable long courseId, @PathVariable long courseRegistrationId) throws CourseRegistrationNotFoundException {
         CourseRegistration courseRegistration = this.courseRegistrationService.getCourseRegistrationById(courseRegistrationId);
         return ResponseEntity.of(Optional.of(courseRegistration));
     }
